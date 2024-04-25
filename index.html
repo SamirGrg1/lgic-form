@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div  class="container" >
+        <header>
+            <div class="navcontainer">
+                <div class="collegelogo">
+                    <img src="collegelogo.jpeg" alt="">
+                </div>
+                <div class="detail">
+                    <h1>LA GRANDEE INTERNATIONAL COLLEGE</h1>
+                    <span>Pokhara-8, Simalchour</span><br>
+                    <span><strong>admission@lagrandee.edu.np|061-573163| <i>www.lagrandee.edu.np</i></strong></span>
+                </div>
+                <div class="certificate">
+                    <img src="isologo-1-1.jpg" alt="">
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="maincontainer">
+               <div class="topsection">
+                <h2 style="color: #0b3b56;">Application form</h2>
+                
+               </div>
+
+
+
+               <div class="midsection">
+              <div style="float: right;" class="photosection">
+                <div class="photo">
+                    <img src="studentlogo.png" alt="">
+                </div>
+                <label for="inputphoto">Click to add Photo</label>
+                <input type="file" accept="image/jpeg, image/png, image/jpg" id="inputphoto">
+       
+              </div>
+              <br><br><br><br><br><br> <br><br><br><br>
+              <ul id="student" type="none" >
+                <li id="Sname" > 
+                    <label for="sname">
+                    
+                        Applicant's Name (IN BLOCK LETTER)
+                       </label>
+                
+                <br>
+                <input style="width: 100%;" id="sname"  type="text" placeholder="Enter Full Name..">
+                </li>
+                <li id="dobbs">
+                    <label for="DOBbs">Date of Birth(BS):</label>
+                    <br>
+                    <input style="border: 1px;" type="date" id="DOBbs" name="DOBbs">
+                </li>
+                <li id="dobad">
+                    <label for="DOBad">Date of Birth(AD):</label>
+                    <br>
+                    <input type="date" id="DOBad" name="DOBad">
+                </li>
+                <li>
+                    <label for="sex">Sex:</label>
+                    <br>
+                    <select name="sex" id="sex">
+                        <option value="Male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="Other">Other</option>
+                       </select>
+                <li>
+                    <label for="nationality">Nationality</label>
+                    <br>
+                    <input  type="text" id="nationality" placeholder="Enter your Nationality..." >
+                    
+                </li>
+            </ul>
+
+            <ul id="father" type="none">
+                <li id="fhead">
+                    <h4>Father's Information</h4>
+                </li>
+                <li id="Fname">
+                    <label for="fname">Full Name</label>
+                    <input style="width: 100%" type="text" name="fname" id="fname" placeholder="Enter Father's Name here">
+                    <br>
+
+                </li>
+                <li id="Fmobile">
+                    <label for="fphone">Mobile Number :</label>
+                    <br>
+                    <input width="100%" type="number" name="fmobile" id="fmobile" placeholder="Enter Father's Contact Number here...">
+                </li>
+            </ul>
+                   
+                   <ul id="father" type="none">
+                    <li id="fhead">
+                        <h4>Mother's Information</h4>
+                    </li>
+                    <li id="Fname">
+                        <label for="fname">Full Name</label>
+                        <input style="width: 100%" type="text" name="fname" id="fname" placeholder="Enter Mother's Name here">
+                        <br>
+    
+                    </li>
+                    <li id="Fmobile">
+                        <label for="fphone">Mobile Number :</label>
+                        <br>
+                        <input width="100%" type="number" name="fmobile" id="fmobile" placeholder="Enter Mother's Contact Number here...">
+                    </li>
+                </ul>
+                <ul type="none">
+                    <li>
+                        <label for="paddress">
+                            <strong>
+                                Permanent Address
+                            </strong>
+                            
+                        </label>
+                        <br>
+                        <input style="border: 1px solid;" width="100%" type="text" name="paddress" id="paddress" placeholder="Enter Permanent Address..(with house number)">
+                    </li>
+                </ul>
+                
+                <ul id="father" type="none">
+                    
+                    <li id="Fname">
+                        <label for="fname">
+                            <strong>
+                                Mobile No.
+                            </strong>
+                            </label>
+                        <input style="width: 100%" type="number" name="fname" id="fname" placeholder="Enter Your Contact Number here...">
+                        <br>
+    
+                    </li>
+                    <li id="Fmobile">
+                        <label for="fphone">
+                            <strong>
+                                Email
+                            </strong>
+                            </label>
+                        <br>
+                        <input width="100%" type="email" name="fmobile" id="fmobile" placeholder="Enter Your Email here...">
+                    </li>
+                </ul>
+
+                <ul id="course" type="none">
+                    <li id="chead">
+                        <strong>
+                            Course Applied For (Indicate your preference by tick mark) 
+                        </strong>
+                    </li>
+                    
+                   <li id="program" style="background:#728ceb;">
+                    Program
+                   </li>
+                   <li id="action" style="background:#728ceb;">
+                    Action
+                   </li>
+                   <li style="border: 1px solid #c2c6ca;">
+                     BBA-2023
+                   </li>
+                   <li style="border: 1px solid #dee2e6;">
+                    <input style="height:20px;width:20px;" class="ChooseProgram" data-classid="847" data-admissionopenid="847" type="checkbox" name="Program" required>
+                   </li>
+                   <li style="border: 1px solid #dee2e6;">
+                    BCA-2023
+                   </li>
+                   <li style="border: 1px solid #dee2e6;">
+                    <input style="height:20px;width:20px;" class="ChooseProgram" data-classid="847" data-admissionopenid="847" type="checkbox" name="Program" required>
+                   </li>
+                </ul>
+
+                <ul id="qualification" type="none">
+                    <li id="qhead" >
+<strong>
+    Academic Qualification 
+</strong>
+                    </li >
+                    <li style="background:#728ceb;">
+                        Exams
+                    </li>
+                    <li style="background:#728ceb;">
+                        Examination Board/ University
+                    </li>
+                    <li style="background:#728ceb;">
+                        School/College Name
+                    </li>
+                    <li style="background:#728ceb;">
+                        Passed Year
+                    </li>
+                    <li style="background:#728ceb;">
+                        Total Marks
+                    </li>
+                    <li style="background:#728ceb;">
+                        Marks Obtained
+                    </li>
+                    <li style="background:#728ceb;">
+                        Percentage/CGPA	
+                    </li>
+                    <li style="background:#728ceb;">
+                        Division
+                    </li>
+                    <li style="background:#728ceb;">
+                        Symbol Number
+                    </li>
+                    <li style="background:#728ceb;">
+                        Major Subjects
+                    </li>
+                    <li>
+                        SLC
+                    </li>
+                    <li>
+                        <input type="text" placeholder="Board/University">
+                    </li>
+                    <li>
+                        <input type="text" placeholder="School/College">
+                    </li>
+                    <li>
+                        <input type="text" placeholder="Passed Year">
+                    </li>
+                    <li>
+                        <input type="number" placeholder="Total Marks">
+                    </li>
+                    <li>
+                        <input type="number" placeholder="Marks-Obtained">
+                    </li>
+                    <li>
+                        <input type="number" placeholder="Percentage">
+                    </li>
+                    <li>
+                        <input type="text" placeholder="Division">
+                    </li>
+                    <li>
+                        <input type="number" placeholder="Symbol-No.">
+                    </li>
+                    <li>
+                        <input type="text" placeholder="Remarks">
+                    </li>
+                    <li>
+                        +2
+                    </li>
+                    <li>
+                        <input type="text" placeholder="Board/University">
+                    </li>
+                    <li>
+                        <input type="text" placeholder="School/College">
+                    </li>
+                    <li>
+                        <input type="text" placeholder="Passed Year">
+                    </li>
+                    <li>
+                        <input type="number" placeholder="Total Marks">
+                    </li>
+                    <li>
+                        <input type="number" placeholder="Marks-Obtained">
+                    </li>
+                    <li>
+                        <input type="number" placeholder="Percentage">
+                    </li>
+                    <li>
+                        <input type="text" placeholder="Division">
+                    </li>
+                    <li>
+                        <input type="number" placeholder="Symbol-No.">
+                    </li>
+                    <li>
+                        <input type="text" placeholder="Remarks">
+                    </li>
+                   
+                </ul>
+
+                <ul id="document" type="none" >
+                    <li id="dhead">
+                        Required Documents
+                    </li>
+                    <li style="background:#728ceb;" >
+                        Document Name
+                    </li >
+                    <li style="background:#728ceb;">
+                        Choose Document
+                    </li >
+                    <li style="background:#728ceb;">
+                        Status
+                    </li>
+                    <li style="background:#728ceb;">
+                        Remove
+                    </li>
+                    <li>
+                        Eleven Gradesheet
+                    </li>
+                    <li><input type="file"></li>
+                    <li> Uploaded</li>
+                    <li>
+                        <button type="button">Remove</button>
+                    </li>
+                    <li>
+                        Twelve Gradesheet
+                    </li>
+                    <li><input type="file"></li>
+                    <li> Uploaded</li>
+                    <li>
+                        <button type="button">Remove</button>
+                    </li>
+                </ul>
+                
+                <script>
+                    var checkboxes = document.querySelectorAll('.ChooseProgram');
+                
+                    checkboxes.forEach(function(checkbox) {
+                        checkbox.addEventListener('change', function() {
+                            // Uncheck all other checkboxes
+                            checkboxes.forEach(function(otherCheckbox) {
+                                if (otherCheckbox !== checkbox) {
+                                    otherCheckbox.checked = false;
+                                }
+                            });
+                        });
+                    });
+                </script>
+                <br>
+                <ul id="admit" type="none"  style="border: 1px solid black;">
+                    <li>
+                        <h4>Declaration by the Applicant</h4>
+                    </li>
+                    <li>
+                        <p>I hearby declare that all particulars given in this application form are true to the best of my knowledge.
+
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If I am admitted, I agree to abide by all the college rules and regulations.
+                        </p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="agree">
+    <label for="agree"><strong>I agree</strong></label>
+                    </li>
+                </ul>
+                    
+                <ul id="submit" type=none>
+                    <li id="pay" >
+                        <input type="radio" id="payment">
+<label for="bu">Payment Reference Document Upload</label>
+                    </li>
+                    
+                </ul>
+                <ul id="sub">
+                    <li style="align-content: center;" >
+                        <button type="button"  style="border-radius: 5px; background-color: #0b3b56!important"><span style="font-size:14px;font-weight:bold"><i class="fas fa-check-circle" style="margin-right:5px;"></i> SUBMIT</span></button>
+                    </li>
+                </ul>
+                
+                
+
+               
+               
+                </div>
+                <div class="footer">
+                    <p>
+                        Powered By:
+                    </p>
+                </div>
+               </div>
+               
+            </div>
+            
+        </main>
+        
+    </div>
+</body>
+</html>

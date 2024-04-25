@@ -1,0 +1,215 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0216218C;
+}
+.container{
+ 
+    width: 71.25rem;
+    height: 1770px;
+    
+    margin: auto;
+    background-color: white;
+    
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.navcontainer{
+    width: 1140px;
+    background-color: #0B3B50;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.collegelogo img{
+   
+    width: 120px;
+}
+.certificate img{
+    width: 150px;
+    height: 120px;
+}
+.detail h1,span{
+    color: white;
+}
+.maincontainer{
+    margin: 1.1rem;
+    padding: 2rem;
+    
+}
+.topsection{
+    display: flex;
+    flex-direction: column;
+ gap: 20px;
+}
+.topsection h2{
+    margin: auto;
+}
+.photosection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* gap: 1rem; */
+}
+.photo img{
+ 
+    height: 120px;
+    width: 125px;
+  border: 1px solid;
+    position: relative;
+   
+}
+#inputphoto{
+    display: none;
+}
+
+ul li{
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+#sname{
+    width: 100%;
+    border: 1px solid ;
+
+}
+#Sname{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+#student{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
+}
+#dobbs{
+    grid-column-start: 1;
+    grid-column-end: 2;
+  
+}
+#Dobbs{
+    border: 1px solid black;
+}
+#sex{
+    border: 1px solid black;
+}
+#nationality {
+    border: 1px solid;
+    width: 100%;
+}
+#fhead 
+{ display: flex;
+  
+    align-items: end;
+}
+#dobad{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#father{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+#Fname{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+#fname{
+    border: 1px solid black;
+    width: 100%;
+
+}
+#fmobile{
+    border: 1px solid black;
+    width: 100%;
+}
+#paddress{
+    border: 1px solid black;
+    width: 100%;
+}
+#program{
+    border-right: 1px solid white;
+}
+#course{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+}
+#chead{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#qualification{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(3,1fr);
+    overflow-x: scroll;
+}
+#qhead{
+grid-column-start: 1;
+grid-column-end: 11;
+}
+#qualification li{
+    border-left: 1px solid white;
+}
+#document{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(2,1fr);
+}
+#dhead{
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+}
+#document li{
+    border-left: 1px solid white;
+}
+#admit{
+   
+    border: 1px solid black;
+    border-radius: 10px;
+  padding: auto;
+   
+}
+#bu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submit li#pay {
+    height: 50px;
+    margin: 16px;
+}
+
+#sub{
+    height: 50px;
+}
+#sub li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    
+}
+
+
+.footer{
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #00000008;
+    width: 100%;
+    margin: 0;
+}
